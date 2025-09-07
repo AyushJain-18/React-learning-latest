@@ -7,7 +7,7 @@ import FetchDataContainer, {
   ComponentToConsumeProviderValue,
 } from "./FunctionalComponent";
 import { Provider } from "./context";
-import FileUpload from "../FileUploader";
+import FileUpload from "./FileUploader";
 import LightDarkTooglerApp from "./theme/LightDarkToogler";
 
 class App extends React.Component {
