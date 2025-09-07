@@ -1,9 +1,9 @@
-import react, {useState, useEffect} from "react";
+import react, { useState, useEffect } from "react";
 
-const MyUseState =()=> {
+const MyUseState = () => {
     const [name, setName] = useState("");
 
-    const updateName =()=>{
+    const updateName = () => {
         setName("Ayush Jain")
     }
 
@@ -14,9 +14,7 @@ const MyUseState =()=> {
     }, [])
 
     return (
-        <>
-        Your State using SetState is {name}
-        </>
+        <p aria-live="polite"> Your State using SetState is {name} </p>
     )
 }
 
